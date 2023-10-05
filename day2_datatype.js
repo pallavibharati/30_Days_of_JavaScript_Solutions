@@ -43,6 +43,7 @@ console.log("Character at 15th index-",challenge.charAt(15));
 console.log(challenge.charCodeAt("Character code of J - ",'J'));
 
 // Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
+console.log(challenge.indexOf(1));
 
 
 // Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
