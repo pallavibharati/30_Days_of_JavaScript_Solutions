@@ -7,7 +7,7 @@ console.log(challenge);
 
 // Print the length of the string on the browser console using console.log()
 console.log("------------------Print the length of the string-------------------");
-console.log(length(challenge));
+console.log(challenge.length);
 
 // Change all the string characters to capital letters using toUpperCase() method
 console.log("------------------Convert string to UpperCase---------------------");
