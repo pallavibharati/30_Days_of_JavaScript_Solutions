@@ -43,11 +43,15 @@ console.log("Character at 15th index-",challenge.charAt(15));
 console.log(challenge.charCodeAt("Character code of J - ",'J'));
 
 // Use indexOf to determine the position of the first occurrence of a in 30 Days Of JavaScript
-console.log(challenge.indexOf(1));
-
+console.log(challenge.indexOf('a'))
 
 // Use lastIndexOf to determine the position of the last occurrence of a in 30 Days Of JavaScript.
-// Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log(challenge.lastIndexOf('in'));
+
+// Use indexOf to find the position of the first occurrence of the word because in the following sentence:
+let sentence = 'You cannot end a sentence with because because because is a conjunction'
+
+
 // Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
 // Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
 // Use trim() to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
